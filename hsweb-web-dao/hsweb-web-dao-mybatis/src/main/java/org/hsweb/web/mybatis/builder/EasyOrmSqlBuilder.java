@@ -115,7 +115,6 @@ public class EasyOrmSqlBuilder {
         if (cached != null) {
             return cached;
         }
-        WebUtil
         RDBTableMetaData rdbTableMetaData = new RDBTableMetaData();
         rdbTableMetaData.setName(tableName);
         rdbTableMetaData.setDatabaseMetaData(active);
